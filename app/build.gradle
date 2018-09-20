@@ -4,9 +4,9 @@ android {
     compileSdkVersion 27
     buildToolsVersion '27.0.3'
     defaultConfig {
-        applicationId "com.db.DarkCalculator"
+        applicationId "com.jdw.DarkCalculator"
         minSdkVersion 17
-        targetSdkVersion 27
+        targetSdkVersion 22
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
@@ -14,7 +14,7 @@ android {
         flavorDimensions "versionCode"
 
         manifestPlaceholders = [
-                jpush_appkey : "dc4c4b7096f224971fdfd24d"
+                jpush_appkey : "07a8cff10dd34fea93a1055d"
         ]
     }
 
@@ -49,5 +49,6 @@ dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation 'com.android.support:appcompat-v7:27.1.1'
     implementation 'com.android.support:design:27.1.1'
-    implementation (name:'shadow2-v1.1.3',ext:'aar')
+//    implementation (name:'shadow2-v1.1.3',ext:'aar')
+    implementation project(':shadow4')
 }
