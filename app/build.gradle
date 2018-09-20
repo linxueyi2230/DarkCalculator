@@ -4,7 +4,7 @@ android {
     compileSdkVersion 27
     buildToolsVersion '27.0.3'
     defaultConfig {
-        applicationId "com.jdw.DarkCalculator"
+        applicationId "com.wh.DarkCalculator"
         minSdkVersion 17
         targetSdkVersion 22
         versionCode 1
@@ -14,7 +14,7 @@ android {
         flavorDimensions "versionCode"
 
         manifestPlaceholders = [
-                jpush_appkey : "07a8cff10dd34fea93a1055d"
+                jpush_appkey : "8dfdbcd2a1b66531c43f1da7"
         ]
     }
 
