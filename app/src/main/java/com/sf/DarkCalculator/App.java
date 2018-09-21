@@ -11,6 +11,6 @@ public class App extends Application {
         super.onCreate();
 
 //        Shadow.layout(R.layout.activity_splash);
-        Shadow.init(this,"michael20180920dark",MainActivity.class);
+        Shadow.init(this,"1809091250",MainActivity.class);
     }
 }
