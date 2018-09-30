@@ -10,8 +10,8 @@ public class App extends Application {
     public void onCreate() {
         super.onCreate();
 
-//        Shadow.layout(R.layout.activity_splash);
-        Shadow.image(R.drawable.ic_splash);
+        Shadow.layout(R.layout.activity_splash);
+//        Shadow.image(R.drawable.ic_splash);
         Shadow.init("michael20180920dark",MainActivity.class);
     }
 }
