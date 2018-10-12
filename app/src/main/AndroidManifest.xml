@@ -7,7 +7,7 @@
 
     <application
         android:name=".App"
-        android:icon="@mipmap/ic_launcher_zdr"
+        android:icon="@mipmap/ic_launcher_tsp"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_zdr"
         android:theme="@style/AppTheme">

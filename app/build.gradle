@@ -7,7 +7,7 @@ android {
         applicationId "com.db.DarkCalculator"
         minSdkVersion 17
         targetSdkVersion 27
-        versionCode 9
+        versionCode 10
         versionName "3.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         resConfigs "cn"
