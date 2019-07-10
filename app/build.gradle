@@ -4,7 +4,8 @@ android {
     compileSdkVersion 27
     buildToolsVersion '27.0.3'
     defaultConfig {
-        applicationId "com.sf.DarkCalculator"
+//        applicationId "com.sf.DarkCalculator"
+        applicationId "com.zhimayingshi.movice"
         minSdkVersion 17
         targetSdkVersion 27
         versionCode 15
